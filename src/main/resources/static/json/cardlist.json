@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Ace of Hearts",
+    "description": "*From The Ashes* - When this card is played, a creature within your range regains hit points equal to two Deck Dice plus your Charisma modifier. Whenever you drop to zero hit points, this card is played from your hand automatically and you instantly regain the hit points, thereby not being knocked unconscious."
+  },
+  {
+    "name": "Ace of Diamonds",
+    "description": "*One In The Chamber* - Perform a ranged spell attack with this card. It is thrown with extreme velocity, doubling its range, dealing 4 Deck Dice of force damage. The attack will travel its full distance, regardless of how many enemies it travels through, until it hits a solid wall or object. Any creature behind the first must make a Dexterity saving throw or take the damage as well."
+  },
+  {
+    "name": "Ace of Spades",
+    "description": "*Pull Them In* - When this card is played, each creature within a 15 foot radius centered around a point within your range takes one Deck Die of force damage and must make a Strength saving throw. On a fail, they are pulled towards the center in a straight line. This movement does not trigger Attacks of Opportunity. If a creature collides with solid objects or other creatures this way, it takes an additional Deck Die of bludgeoning damage and is stunned until the end of its next turn."
+  },
+  {
+    "name": "Ace of Clubs",
+    "description": "*It's All Luck* - When this card is played, re-roll all *Inherent Luck* die of the **Tip the Scales** feature and gain back expended deck points equal to your proficiency modifier. Additionally, for the next 8 hours, you can re-roll any natural 1 or 2 and you crit on any d20 roll of a 19 or 20."
+  }
+]

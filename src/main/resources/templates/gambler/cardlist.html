@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Gambler Card List</title>
+</head>
+<body>
+    <h1>Gambler Card List</h1>
+
+    <div th:each="card : ${cardList}">
+        <btn th:text="${card.getName()}"></btn>
+    </div>
+</body>
+</html>
