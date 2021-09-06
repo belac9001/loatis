@@ -20,6 +20,5 @@ public class BaseDataService {
     void createDefaultData(){
         log.info("Creating default data...");
         cardList.createCardList();
-        cardList.printCardList(); // debug
     }
 }

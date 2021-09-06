@@ -47,10 +47,4 @@ public class CardList {
 
         return null;
     }
-    // debugging method
-    public void printCardList() {
-        for(Card card : this.cardList) {
-            log.info(card.getName());
-        }
-    }
 }
