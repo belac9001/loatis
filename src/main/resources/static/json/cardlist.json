@@ -1,18 +1,66 @@
 [
   {
     "name": "Ace of Hearts",
-    "description": "*From The Ashes* - When this card is played, a creature within your range regains hit points equal to two Deck Dice plus your Charisma modifier. Whenever you drop to zero hit points, this card is played from your hand automatically and you instantly regain the hit points, thereby not being knocked unconscious."
+    "description": "From The Ashes - When this card is played, a creature within your range regains hit points equal to two Deck Dice plus your Charisma modifier. Whenever you drop to zero hit points, this card is played from your hand automatically and you instantly regain the hit points, thereby not being knocked unconscious."
   },
   {
     "name": "Ace of Diamonds",
-    "description": "*One In The Chamber* - Perform a ranged spell attack with this card. It is thrown with extreme velocity, doubling its range, dealing 4 Deck Dice of force damage. The attack will travel its full distance, regardless of how many enemies it travels through, until it hits a solid wall or object. Any creature behind the first must make a Dexterity saving throw or take the damage as well."
+    "description": "One In The Chamber - Perform a ranged spell attack with this card. It is thrown with extreme velocity, doubling its range, dealing 4 Deck Dice of force damage. The attack will travel its full distance, regardless of how many enemies it travels through, until it hits a solid wall or object. Any creature behind the first must make a Dexterity saving throw or take the damage as well."
   },
   {
     "name": "Ace of Spades",
-    "description": "*Pull Them In* - When this card is played, each creature within a 15 foot radius centered around a point within your range takes one Deck Die of force damage and must make a Strength saving throw. On a fail, they are pulled towards the center in a straight line. This movement does not trigger Attacks of Opportunity. If a creature collides with solid objects or other creatures this way, it takes an additional Deck Die of bludgeoning damage and is stunned until the end of its next turn."
+    "description": "Pull Them In - When this card is played, each creature within a 15 foot radius centered around a point within your range takes one Deck Die of force damage and must make a Strength saving throw. On a fail, they are pulled towards the center in a straight line. This movement does not trigger Attacks of Opportunity. If a creature collides with solid objects or other creatures this way, it takes an additional Deck Die of bludgeoning damage and is stunned until the end of its next turn."
   },
   {
     "name": "Ace of Clubs",
-    "description": "*It's All Luck* - When this card is played, re-roll all *Inherent Luck* die of the **Tip the Scales** feature and gain back expended deck points equal to your proficiency modifier. Additionally, for the next 8 hours, you can re-roll any natural 1 or 2 and you crit on any d20 roll of a 19 or 20."
+    "description": "It's All Luck - When this card is played, re-roll all Inherent Luck die of the Tip the Scales feature and gain back expended deck points equal to your proficiency modifier. Additionally, for the next 8 hours, you can re-roll any natural 1 or 2 and you crit on any d20 roll of a 19 or 20."
+  },
+  {
+    "name": "Two of Hearts",
+    "description": "Perform a ranged spell attack to deal bludgeoning damage equal to one Deck Die plus your Charisma modifier. The attacked creature has to succeed on a Strength saving throw or be knocked prone."
+  },
+  {
+    "name": "Two of Diamonds",
+    "description": "Dead Man's Hand - This card can be played as an action or as a reaction when your Attack of Opportunity has been triggered. Perform a ranged spell attack to deal force damage equal to one Deck Die plus your Charisma modifier. The target has to succeed on a Strength saving throw or its movement is reduced to 0 until the end of its turn."
+  },
+  {
+    "name": "Two of Spades",
+    "description": "Foresight - When this card is played as a bonus action, your range is doubled for one minute. You may throw or play another card after this one as an action."
+  },
+  {
+    "name": "Two of Clubs",
+    "description": "Split Hand -  When this card is played, you perform three seperate attacks against three separate creatures within range (one attack per creature). You throw nonmagical, physical cards as described in Card Shark."
+  },
+  {
+    "name": "Three of Hearts",
+    "description": "Keep A Tab - Perform a melee or ranged spell attack to stick this card to a creature or object of your choosing. This attack does not appear to be a hostile action against the target. For one Deck Die of hours, as long as the card remains on its target, you will know its precise location. The card can be found by succeeding on a Perception or Investigation (decided by your DM) check against your spell save DC."
+  },
+  {
+    "name": "Three of Diamonds",
+    "description": "Speak Your Mind - When this card is played, you can read, write and speak one language of your choosing. This effect lasts for 1 hour."
+  },
+  {
+    "name": "Three of Spades",
+    "description": "Read Them Like A Book - When this card is played, you become aware of a creature's state of mind, how they are thinking about you and whether they are being manipulated."
+  },
+  {
+    "name": "Three of Clubs",
+    "description": "Confidence - When this card is played, you can give yourself or another willing creature within 30 ft an Inherent Luck die."
+  },
+  {
+    "name": "Four of Hearts",
+    "description": "Cold As Ice - Chilled air and slippery ice covers the ground and air in a 10-foot radius. This card deals 3 Deck Dice of cold damage. Any creature attempting to move within the aura must succeed on a Dexterity saving throw or be knocked prone."
+  },
+  {
+    "name": "Four of Diamonds",
+    "description": "Shock Value - Crackling lightning fills a 10-foot circular aura around the point. This card deals 3 Deck Dice of lightning damage. Any creature beginning their turn in the aura must succeed on a Constitution saving throw or be paralyzed. They can repeat the saving throw at the start of their turn."
+  },
+  {
+    "name": "Four of Spades",
+    "description": "Devil's Bedpost - This card deals 3 Deck Dice of fire damage to creatures. This card's effect radius is 15 feet instead of 10 feet. The fire spreads around the corners and ignites flammable objects in the area that aren't being worn or carried."
+  },
+  {
+    "name": "Four of Clubs",
+    "description": "Familiar Taste of Poison - A noxious gas cloud is created around the point. This card deals 3 Deck Dice of poison damage. Each creature within range must succeed a Constitution saving throw or become poisoned. They can repeat the saving throw at the start of their turn."
   }
 ]

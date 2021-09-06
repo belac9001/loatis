@@ -39,6 +39,14 @@ public class CardList {
         return this.cardList;
     }
 
+    public Card getCard(String cardName) {
+        for(Card card : this.cardList) {
+            if(card.getName().equals(cardName))
+                return card;
+        }
+
+        return null;
+    }
     // debugging method
     public void printCardList() {
         for(Card card : this.cardList) {

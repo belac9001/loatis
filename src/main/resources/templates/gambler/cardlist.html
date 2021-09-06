@@ -7,8 +7,14 @@
 <body>
     <h1>Gambler Card List</h1>
 
-    <div th:each="card : ${cardList}">
-        <btn th:text="${card.getName()}"></btn>
+    <form action="/gambler/cardlist" method="get">
+        <div th:each="card : ${cardList}">
+            <input type="submit" th:value="${card.getName()}" name="cardName">
+        </div>
+    </form>
+
+    <div>
+        <p th:text="${cardDesc}"></p>
     </div>
 </body>
 </html>
