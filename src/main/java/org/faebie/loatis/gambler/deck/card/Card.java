@@ -10,7 +10,9 @@ public class Card {
         this.name = name;
     }
 
-    public void setDescriptionTitle(String descriptionTitle) { this.descriptionTitle = descriptionTitle; }
+    public void setDescriptionTitle(String descriptionTitle) {
+        this.descriptionTitle = descriptionTitle;
+    }
 
     public void setDescription(String description) {
         this.description = description;

@@ -21,13 +21,18 @@ public class GamblerController {
     @RequestMapping(value = "gambler/cardlist", method = RequestMethod.GET)
     public String displayCardList(Model model,
                                   @RequestParam(value="cardName", required=false) String cardName){
+        String cardDescriptionTitle;
         String cardDescription;
 
-        if(cardName == null)
+        if(cardName == null){
             cardDescription = "";
-        else
+            cardDescriptionTitle = "";
+        } else {
+            cardDescriptionTitle = cardList.getCard(cardName).getDescriptionTitle();
             cardDescription = cardList.getCard(cardName).getDescription();
+        }
 
+        model.addAttribute("cardDescTitle", cardDescriptionTitle);
         model.addAttribute("cardDesc", cardDescription);
         model.addAttribute("cardList", cardList.getCardList());
         return "gambler/cardlist";
