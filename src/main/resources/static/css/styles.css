@@ -1,0 +1,21 @@
+.cardlist-title {
+}
+
+.cardlist-wrapper {
+}
+
+.cardlist-names {
+    float:left;
+    width: 600px;
+    height:500px;
+}
+
+.cardlist-names table {
+    width:200px;
+    height:500px;
+}
+
+.cardlist-description {
+    float:left;
+    width: 500px;
+}
