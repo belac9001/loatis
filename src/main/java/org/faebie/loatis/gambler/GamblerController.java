@@ -28,13 +28,13 @@ public class GamblerController {
             cardDescription = "";
             cardDescriptionTitle = "";
         } else {
-            cardDescriptionTitle = cardList.getCard(cardName).getDescriptionTitle();
-            cardDescription = cardList.getCard(cardName).getDescription();
+            cardDescriptionTitle = cardList.getCardByName(cardName).getDescriptionTitle();
+            cardDescription = cardList.getCardByName(cardName).getDescription();
         }
 
         model.addAttribute("cardDescTitle", cardDescriptionTitle);
         model.addAttribute("cardDesc", cardDescription);
-        model.addAttribute("cardList", cardList.getCardList());
+        model.addAttribute("cardList", cardList);
         return "gambler/cardlist";
     }
 }

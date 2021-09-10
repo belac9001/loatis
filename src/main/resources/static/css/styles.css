@@ -2,20 +2,21 @@
 }
 
 .cardlist-wrapper {
+    display: flex;
 }
 
 .cardlist-names {
+    border:solid;
     float:left;
-    width: 600px;
-    height:500px;
 }
 
 .cardlist-names table {
-    width:200px;
-    height:500px;
 }
 
 .cardlist-description {
+    border:solid;
     float:left;
-    width: 500px;
+    width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
 }

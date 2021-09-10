@@ -39,7 +39,7 @@ public class CardList {
         return this.cardList;
     }
 
-    public Card getCard(String cardName) {
+    public Card getCardByName(String cardName) {
         for(Card card : this.cardList) {
             if(card.getName().equals(cardName))
                 return card;

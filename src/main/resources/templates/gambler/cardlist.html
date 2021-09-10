@@ -12,7 +12,7 @@
         <div class="cardlist-names">
             <form action="/gambler/cardlist" method="get">
                 <table class="cardlist-table">
-                    <tr th:each="card : ${cardList}">
+                    <tr th:each="card : ${cardList.getCardList()}">
                         <td>
                             <input type="submit" th:value="${card.getName()}" name="cardName">
                         </td>
@@ -22,7 +22,7 @@
         </div>
 
         <div class="cardlist-description">
-            <p th:text="${cardDescTitle}"></p>
+            <h4 th:text="${cardDescTitle}"></h4>
             <p th:text="${cardDesc}"></p>
         </div>
     </div>
