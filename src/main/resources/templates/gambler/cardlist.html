@@ -22,8 +22,8 @@
         </div>
 
         <div class="cardlist-description">
-            <h4 th:text="${cardDescTitle}"></h4>
-            <p th:text="${cardDesc}"></p>
+            <h4 th:text="${currentCard.getDescriptionTitle()}"></h4>
+            <p th:text="${currentCard.getDescription()}"></p>
         </div>
     </div>
 </body>

@@ -45,6 +45,6 @@ public class CardList {
                 return card;
         }
 
-        return null;
+        return this.cardList.get(0);
     }
 }
