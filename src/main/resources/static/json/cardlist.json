@@ -1,265 +1,318 @@
 [
   {
+    "id": 1,
     "name": "Ace of Hearts",
     "descriptionTitle": "From the Ashes",
     "description": "When this card is played, a creature within your range regains hit points equal to two Deck Dice plus your Charisma modifier. Whenever you drop to zero hit points, this card is played from your hand automatically and you instantly regain the hit points, thereby not being knocked unconscious."
   },
   {
+    "id": 2,
     "name": "Ace of Diamonds",
     "descriptionTitle": "One In The Chamber",
     "description": "Perform a ranged spell attack with this card. It is thrown with extreme velocity, doubling its range, dealing 4 Deck Dice of force damage. The attack will travel its full distance, regardless of how many enemies it travels through, until it hits a solid wall or object. Any creature behind the first must make a Dexterity saving throw or take the damage as well."
   },
   {
+    "id": 3,
     "name": "Ace of Spades",
     "descriptionTitle": "Pull Them In",
     "description": "When this card is played, each creature within a 15 foot radius centered around a point within your range takes one Deck Die of force damage and must make a Strength saving throw. On a fail, they are pulled towards the center in a straight line. This movement does not trigger Attacks of Opportunity. If a creature collides with solid objects or other creatures this way, it takes an additional Deck Die of bludgeoning damage and is stunned until the end of its next turn."
   },
   {
+    "id": 4,
     "name": "Ace of Clubs",
     "descriptionTitle": "It's All Luck",
     "description": "When this card is played, re-roll all Inherent Luck die of the Tip the Scales feature and gain back expended deck points equal to your proficiency modifier. Additionally, for the next 8 hours, you can re-roll any natural 1 or 2 and you crit on any d20 roll of a 19 or 20."
   },
   {
+    "id": 5,
     "name": "Two of Hearts",
     "descriptionTitle": "Heavy Handed",
     "description": "Perform a ranged spell attack to deal bludgeoning damage equal to one Deck Die plus your Charisma modifier. The attacked creature has to succeed on a Strength saving throw or be knocked prone."
   },
   {
+    "id": 6,
     "name": "Two of Diamonds",
     "descriptionTitle": "Dead Man's Hand",
     "description": "This card can be played as an action or as a reaction when your Attack of Opportunity has been triggered. Perform a ranged spell attack to deal force damage equal to one Deck Die plus your Charisma modifier. The target has to succeed on a Strength saving throw or its movement is reduced to 0 until the end of its turn."
   },
   {
+    "id": 7,
     "name": "Two of Spades",
     "descriptionTitle": "Foresight",
     "description": "When this card is played as a bonus action, your range is doubled for one minute. You may throw or play another card after this one as an action."
   },
   {
+    "id": 8,
     "name": "Two of Clubs",
     "descriptionTitle": "Split Hand",
     "description": "When this card is played, you perform three seperate attacks against three separate creatures within range (one attack per creature). You throw nonmagical, physical cards as described in Card Shark."
   },
   {
+    "id": 9,
     "name": "Three of Hearts",
     "descriptionTitle": "Keep A Tab",
     "description": "Perform a melee or ranged spell attack to stick this card to a creature or object of your choosing. This attack does not appear to be a hostile action against the target. For one Deck Die of hours, as long as the card remains on its target, you will know its precise location. The card can be found by succeeding on a Perception or Investigation (decided by your DM) check against your spell save DC."
   },
   {
+    "id": 10,
     "name": "Three of Diamonds",
     "descriptionTitle": "Speak Your Mind",
     "description": "When this card is played, you can read, write and speak one language of your choosing. This effect lasts for 1 hour."
   },
   {
+    "id": 11,
     "name": "Three of Spades",
     "descriptionTitle": "Read Them Like A Book",
     "description": "When this card is played, you become aware of a creature's state of mind, how they are thinking about you and whether they are being manipulated."
   },
   {
+    "id": 12,
     "name": "Three of Clubs",
     "descriptionTitle": "Confidence",
     "description": "When this card is played, you can give yourself or another willing creature within 30 ft an Inherent Luck die."
   },
   {
+    "id": 13,
     "name": "Four of Hearts",
     "descriptionTitle": "Cold As Ice",
     "description": "Chilled air and slippery ice covers the ground and air in a 10-foot radius. This card deals 3 Deck Dice of cold damage. Any creature attempting to move within the aura must succeed on a Dexterity saving throw or be knocked prone."
   },
   {
+    "id": 14,
     "name": "Four of Diamonds",
     "descriptionTitle": "Shock Value",
     "description": "Crackling lightning fills a 10-foot circular aura around the point. This card deals 3 Deck Dice of lightning damage. Any creature beginning their turn in the aura must succeed on a Constitution saving throw or be paralyzed. They can repeat the saving throw at the start of their turn."
   },
   {
+    "id": 15,
     "name": "Four of Spades",
     "descriptionTitle": "Devil's Bedpost",
     "description": "This card deals 3 Deck Dice of fire damage to creatures. This card's effect radius is 15 feet instead of 10 feet. The fire spreads around the corners and ignites flammable objects in the area that aren't being worn or carried."
   },
   {
+    "id": 16,
     "name": "Four of Clubs",
     "descriptionTitle": "Familiar Taste of Poison",
     "description": "A noxious gas cloud is created around the point. This card deals 3 Deck Dice of poison damage. Each creature within range must succeed a Constitution saving throw or become poisoned. They can repeat the saving throw at the start of their turn."
   },
   {
+    "id": 17,
     "name": "Five of Hearts",
     "descriptionTitle": "Heartache",
     "description": "When this card is played, a hostile creature that you can see must make a Wisdom saving throw, or be sent into a berserk tantrum and spend its next action to perform a single ranged or melee attack against another creature of your choice within its range."
   },
   {
+    "id": 18,
     "name": "Five of Diamonds",
     "descriptionTitle": "A Gambler's Best Friend",
     "description": "When this card is played, you can cast Mislead."
   },
   {
+    "id": 19,
     "name": "Five of Spades",
     "descriptionTitle": "Headache",
     "description": "Perform a ranged spell attack to deal psychic damage equal to one Deck Die plus your Charisma modifier. The next time the hit creature makes an attack roll or saving throw, roll a Deck Dice and subtract it from their total."
   },
   {
+    "id": 20,
     "name": "Five of Clubs",
     "descriptionTitle": "Cashing Out",
     "description": "When this card is played, you can cast Invisibility on yourself or one nearby willing creature."
   },
   {
+    "id": 21,
     "name": "Six of Hearts",
     "descriptionTitle": "Seeing Red",
     "description": "Perform a ranged spell attack to deal psychic damage equal to one Deck Die plus your Charisma modifier. On a hit, the weaknesses of your enemy are exposed. Until your next turn, attacks against creatures hit by this card have advantage."
   },
   {
+    "id": 22,
     "name": "Six of Diamonds",
     "descriptionTitle": "Collect Your Due",
     "description": "Perform a ranged spell attack inflicting force damage equal to one Deck Die plus your Charisma modifier. Add an extra Deck Die of necrotic damage and mark the target until the end of their next turn. Any instance of damage done to the marked target will trigger another Deck Die of necrotic damage and heal the attacker for the necrotic damage."
   },
   {
+    "id": 23,
     "name": "Six of Spades",
     "descriptionTitle": "Bleeding Hand",
     "description": "Perform a ranged spell attack to deal slashing damage equal to one Deck Die plus your Charisma modifier. The card cuts deep into the target's body. The target must succeed on a Constition saving throw or take an additional Deck Die of bleeding damage. Any instance of damage done to the marked target will trigger another Deck Die of bleeding damage until the end of its turn."
   },
   {
+    "id": 24,
     "name": "Six of Clubs",
     "descriptionTitle": "Get To The Point",
     "description": "Perform a ranged spell attack to deal acid damage equal to one Deck Die plus your Charisma modifier. The card corrodes the armor of the enemy, permanently reducing its AC by 1."
   },
   {
+    "id": 25,
     "name": "Seven of Hearts",
     "descriptionTitle": "Turn Them Over",
     "description": "This card can only be played as a reaction, which you take when you are targeted by an attack. Roll a d20. If your roll is higher than the attacker's roll, the damage is reduced by 2 Deck Dice. If you roll the same number as the attacker, you negate the attack and reflect the attack's damage back at the attacking creature."
   },
   {
+    "id": 26,
     "name": "Seven of Diamonds",
     "descriptionTitle": "Raise The Stakes",
     "description": "When this card is played, roll 4 Deck Dice and bank the total damage. You may target a creature you can see and both you and the target creature must roll a d20. If your roll beats the creature's roll, the creature takes the banked amount as psychic damage. However, if the creature's roll beats your own, you take the banked damage instead."
   },
   {
+    "id": 27,
     "name": "Seven of Spades",
     "descriptionTitle": "Questionable Aid",
     "description": "When you play this card, choose a creature (including yourself) and roll a d20. On a 20 or 19 you deal 4 Deck Dice worth of necrotic damage to the chosen creature. This damage is reduced by one dice on a 18 or 17, by two dice on 16 to 14 and it only deals one Deck Dice of damage on 13 to 11. On a 10 to 8, the creature is healed by one Deck Dice. This healing is increased by one Deck Dice on a 7 to 5 and increased again by one on a 4 or 3 up to 4 Deck Dice worth of healing on a 2 or 1."
   },
   {
+    "id": 28,
     "name": "Seven of Clubs",
     "descriptionTitle": "Pick Your Poison",
     "description": "When you play this card, you choose a creature within range that must make a Wisdom saving throw. On a failure, roll a d20. That creature suffers the effects corresponding to your roll: On a 1, the creature becomes invisible, on a 2 to 9, it is deafened, on a 10 or 11, it is petrified, on a 12 to 19, it is restrained and on a 20, it is paralyzed. All these effects last for one minute and at the beginning of its turn and whenever it takes damage, the affected creature repeats its saving throw against the effect."
   },
   {
+    "id": 29,
     "name": "Eight of Hearts",
     "descriptionTitle": "Well-Traveled",
     "description": "When this card is played, you gain advantage on Athletics and Acrobatics checks. This effect allows for movement on walls or ceilings and lasts for 1 hour."
   },
   {
+    "id": 30,
     "name": "Eight of Diamonds",
     "descriptionTitle": "As Fast As You Can",
     "description": "When this card is played, you gain immunity to the effects of magic and non-magic rough terrain, and your movement speed increases by 10 feet. This effect lasts for 1 hour."
   },
   {
+    "id": 31,
     "name": "Eight of Spades",
     "descriptionTitle": "Can't Hit What Isn't There",
     "description": "Perform a ranged spell attack to deal thunder damage equal to one Deck Die plus your Charisma modifier. If you hit, your speed is doubled until the end of your turn and your movement does not trigger Attacks of Opportunity."
   },
   {
+    "id": 32,
     "name": "Eight of Clubs",
     "descriptionTitle": "Across The Board",
     "description": "Perform a ranged spell attack to deal thunder damage equal to one Deck Die plus your Charisma modifier and teleport to an open space within 5ft of the target if you hit. If the target was no creature, no damage is dealt but you can still teleport if you hit."
   },
   {
+    "id": 33,
     "name": "Nine of Hearts",
     "descriptionTitle": "House of Cards",
     "description": "When this card is played, your armor is enhanced with spectral cards. Your armor class becomes 13 + your Charisma modifier (minimum of +1) for one minute."
   },
   {
+    "id": 34,
     "name": "Nine of Diamonds",
     "descriptionTitle": "Short Stack",
     "description": "When this card is played, you regain 1 Deck Die worth of hit points. If you are below half of your maximum hit points, regain 2 Deck Dice. If you are below one-quarter of your maximum hit points, regain 3 Deck Dice."
   },
   {
+    "id": 35,
     "name": "Nine of Spades",
     "descriptionTitle": "Share The Wealth",
     "description": "When you play this card, roll for 3 Deck Dice worth of hit points, but you must spread them evenly among your allies (excluding yourself) within 30ft, even if they are at full hit points."
   },
   {
+    "id": 36,
     "name": "Nine of Clubs",
     "descriptionTitle": "Tough Love",
     "description": "Perform a ranged spell attack. This attack deals force damage equal to one Deck Die plus your Charisma modifier. You regain hit points equal to the damage dealt."
   },
   {
+    "id": 37,
     "name": "Ten of Hearts",
     "descriptionTitle": "House of Cards",
     "description": "When this card is played, your armor is enhanced with spectral cards. Your armor class becomes 13 + your Charisma modifier for one minute."
   },
   {
+    "id": 38,
     "name": "Ten of Diamonds",
     "descriptionTitle": "Poker Face",
     "description": "When this card is played, you or a creature within range gains temporary hit points equal to one Deck Die plus your Charisma modifier for 1 hour."
   },
   {
+    "id": 39,
     "name": "Ten of Spades",
     "descriptionTitle": "I'm Rubber, You're Glue",
     "description": "When this card is played as a reaction, you can cast Counterspell. Alternatively, the card can be played as a reaction to being the target of a spell that only targets a single creature. In this case, make a Charisma saving throw equal to 12 + the spell's level. On a successful save, the card absorbs the spell, allowing the card to be consumed on your turn for a single use of that spell at the same level at which it was absorbed. On a failure, the spell acts as normal, and the card is still consumed."
   },
   {
+    "id": 40,
     "name": "Ten of Clubs",
     "descriptionTitle": "Backdoor",
     "description": "When this card is played, you enter a magic stasis until the start of your next turn. While in the stasis, time for you is frozen and nothing happens on your turn.(You can't take any actions, and are immune to all conditions, damage, and healing. Death saves do not happen in stasis.) When leaving stasis, you gain temporary hit points equal to your Charisma modifier."
   },
   {
+    "id": 41,
     "name": "Jack of Hearts",
     "descriptionTitle": "Prince Charming",
     "description": "When this card is played, you can cast Charm Monster."
   },
   {
+    "id": 42,
     "name": "Jack of Diamonds",
     "descriptionTitle": "Crack-Up",
     "description": "When this card is played, choose a creature. This creature must make a Wisdom saving throw as you show it this card. On a failed save, the creature is charmed and falls prone, becoming incapacitated and unable to stand up for 1 minute as they deflate into a fit of uncontrollable laughter. The affected creature can repeat the saving throw at the end of each of its turns and each time it takes damage. The target has advantage on the saving throw if it's triggered by damage. On a success, the effect ends. A blind creature automatically succeeds on the save."
   },
   {
+    "id": 43,
     "name": "Jack of Spades",
     "descriptionTitle": "Load the Blind",
     "description": "When this card is played, you can cast Blindness/Deafness."
   },
   {
+    "id": 44,
     "name": "Jack of Clubs",
     "descriptionTitle": "Authority",
     "description": "Authority - When this card is played, you can cast Fear."
   },
   {
+    "id": 45,
     "name": "Queen of Hearts",
     "descriptionTitle": "Calling In A Favor",
     "description": "You call in a favor from the Shadowfell. When this card is played, you can cast Summon Shadowspawn"
   },
   {
+    "id": 46,
     "name": "Queen of Diamonds",
     "descriptionTitle": "A Moment of Silence",
     "description": "When playing this card, you may cast a level 1 ritual spell of your choosing from the Wizard Spell List. The rules of ritual casting still apply. This card will act as your spellcasting focus for the duration of the ritual."
   },
   {
+    "id": 47,
     "name": "Queen of Spades",
     "descriptionTitle": "Killer Queen",
     "description": "This card has effects that change depending on use. If you successfully perform a spell attack with this card, you can identify any three attributes on the target's statblock (total hit points, immunities, vulnerabilities, etc.). When you place this card on the ground or on an object, you can cast Glyph of Warding. Eating the card provides enough nourishment to sustain you for one day. When this card is played normally, it creates 20 feet of bright light in a radius centered on you, and dim light for an additional 20 feet."
   },
   {
+    "id": 48,
     "name": "Queen of Clubs",
     "descriptionTitle": "Draw-Out",
     "description": "When this card is played, you can cast Detect Magic."
   },
   {
+    "id": 49,
     "name": "King of Hearts",
     "descriptionTitle": "Suicide King",
     "description": "Perform a ranged spell attack. It deals force damage equal five Deck Dice. You take half of the total damage (rounded up)."
   },
   {
+    "id": 50,
     "name": "King of Diamonds",
     "descriptionTitle": "Even Out",
     "description": "Perform a ranged spell attack. If the attacked creature has above half of their maximum hit points, it takes two Deck Dice as necrotic damage. This damage cannot bring the target creature below half of their maximum hit points. If the target creature is below half of their maximum hit points, the attack and the bonus Deck Die will heal the target creature instead. The healing received may not put the target creature above half of its maximum hit points."
   },
   {
+    "id": 51,
     "name": "King of Spades",
     "descriptionTitle": "Final Orbit",
     "description": "When this card is played, select a creature. You and your target enter a \"stand-off\" state and become immune to all damage, effects, and healing from sources outside the stand-off. The stand-off lasts for 3 rounds of combat. The stand-off ends early if either of the parties involved in the stand-off is reduced to 0 hit points. The winner of the stand-off gains temporary hit points equal to the hit-points of the loser before the stand-off started."
   },
   {
+    "id": 52,
     "name": "King of Clubs",
     "descriptionTitle": "Spare the Rod",
     "description": "Perform a ranged spell attack. It deals radiant damage equal to three Deck Dice. If the potential damage of the attack is equal to or greater than the target creature's remaining hit points, its hit points are reduced to 1 instead."
   },
   {
+    "id": 53,
     "name": "Joker",
     "descriptionTitle": "The Fool",
     "description": "This card is played instantly on draw, rather than as an action or reaction. When this card is played, all magical effects in a 20 ft radius centered on you are dispelled. For 1 minute, all creatures within the 20 ft radius, including yourself, are unable to cast spells."

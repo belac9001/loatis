@@ -14,7 +14,9 @@
                 <table class="cardlist-table">
                     <tr th:each="card : ${cardList.getCardList()}">
                         <td>
-                            <input type="submit" th:value="${card.getName()}" name="cardName">
+                            <input th:class="card-btn"
+                                   th:attr="id=${{card.getId()} == {currentCard.getId()} ? 'selected' : ''}"
+                                   type="submit" th:value="${card.getName()}" name="cardName">
                         </td>
                     </tr>
                 </table>
