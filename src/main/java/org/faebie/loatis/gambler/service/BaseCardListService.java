@@ -1,7 +1,8 @@
-package org.faebie.loatis.gambler.deck.card;
+package org.faebie.loatis.gambler.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.faebie.loatis.gambler.model.Card;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,13 +17,13 @@ import java.util.List;
  * Gambler: homebrewery.naturalcrit.com/share/KnMvKFBluQqY
  */
 @Component
-public class CardList {
+public class BaseCardListService {
     private final Logger log = LoggerFactory.getLogger(getClass());
     private final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
     private final File CARD_LIST_FILE;
     private List<Card> cardList;
 
-    public CardList(@Value("${cardlist.location}") String cardListPath) {
+    public BaseCardListService(@Value("${cardlist.location}") String cardListPath) {
         this.CARD_LIST_FILE = new File(cardListPath);
     }
 

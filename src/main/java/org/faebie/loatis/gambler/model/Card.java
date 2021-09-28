@@ -1,4 +1,4 @@
-package org.faebie.loatis.gambler.deck.card;
+package org.faebie.loatis.gambler.model;
 
 public class Card {
 

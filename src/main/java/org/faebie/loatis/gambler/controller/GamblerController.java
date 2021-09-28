@@ -1,6 +1,6 @@
-package org.faebie.loatis.gambler;
+package org.faebie.loatis.gambler.controller;
 
-import org.faebie.loatis.gambler.deck.card.CardList;
+import org.faebie.loatis.gambler.service.BaseCardListService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class GamblerController {
     private final Logger log = LoggerFactory.getLogger(getClass());
-    private final CardList cardList;
+    private final BaseCardListService cardList;
 
-    public GamblerController(CardList cardList) {
+    public GamblerController(BaseCardListService cardList) {
         this.cardList = cardList;
     }
 
