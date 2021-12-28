@@ -1,6 +1,6 @@
 package org.faebie.loatis;
 
-import org.faebie.loatis.gambler.service.BaseCardListService;
+import org.faebie.loatis.gambler.service.CardListService;
 import org.springframework.stereotype.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,9 +11,9 @@ import org.slf4j.LoggerFactory;
 @Service
 public class BaseDataService {
     private static final Logger log = LoggerFactory.getLogger(BaseDataService.class);
-    private final BaseCardListService cardList;
+    private final CardListService cardList;
 
-    public BaseDataService(BaseCardListService cardList) {
+    public BaseDataService(CardListService cardList) {
         this.cardList = cardList;
     }
 

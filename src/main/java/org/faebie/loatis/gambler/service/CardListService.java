@@ -17,13 +17,13 @@ import java.util.List;
  * Gambler: homebrewery.naturalcrit.com/share/KnMvKFBluQqY
  */
 @Component
-public class BaseCardListService {
+public class CardListService {
     private final Logger log = LoggerFactory.getLogger(getClass());
     private final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
     private final File CARD_LIST_FILE;
     private List<Card> cardList;
 
-    public BaseCardListService(@Value("${cardlist.location}") String cardListPath) {
+    public CardListService(@Value("${cardlist.location}") String cardListPath) {
         this.CARD_LIST_FILE = new File(cardListPath);
     }
 

@@ -10,17 +10,16 @@
 
     <div class="cardlist-wrapper">
         <div class="cardlist-names">
-            <form action="/gambler/cardlist" method="get">
                 <table class="cardlist-table">
                     <tr th:each="card : ${cardList.getCardList()}">
                         <td>
-                            <input th:class="card-btn"
-                                   th:attr="id=${{card.getId()} == {currentCard.getId()} ? 'selected' : ''}"
-                                   type="submit" th:value="${card.getName()}" name="cardName">
+                            <a th:href="@{/gambler/cardlist(cardName=${card.getName()})}">
+                                <button th:text="${card.getName()}" th:class="card-btn"
+                                        th:attr="id=${{card.getId()} == {currentCard.getId()} ? 'selected' : ''}">Card Name</button>
+                            </a>
                         </td>
                     </tr>
                 </table>
-            </form>
         </div>
 
         <div class="cardlist-description">
